@@ -1,0 +1,133 @@
+html body div p img input{
+	margin: 0;
+	padding: 0;
+}
+html{
+}
+body{
+	background: #f1f1f1;
+}
+.firstAside{
+	background-color: #F1F1F1;
+	float: left;
+	position: relative;
+	width: 130px;
+	top: -735px;
+	height: 900px;
+    font-size: 15px;
+}
+a
+{
+	display: block;
+}
+.firstAside a{
+	text-decoration: none;
+	color: #2C2C2C;
+}
+.firstAside p{
+	color: #C2110F;
+}
+.firstAside img{
+	width: 20px;
+	height: 20px;
+}
+.centerPage{
+	position: relative;
+	left: 135px;
+	border: 1px solid black;
+	width: 880px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	height: 700px;
+}
+.centerPage a{
+	color: #DA4B49;
+}
+.center{
+	padding-left: 110px;
+}
+.secondAside{
+	position: relative;
+	float: right;
+	width: 180px;
+	top: -720px;
+	border: 1px solid black;
+	height: 715px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+.secondAside a{
+	color: #DA4B49;
+}
+input[type="text"]{
+	width: 90px;
+}
+.secondAside h4{
+	color: #FFF;
+	background-color: #808080;
+}
+
+.first{
+	border-bottom: 3px solid #B4B4B4;
+}
+
+.second{
+	border-bottom: 3px solid #B4B4B4;
+}
+
+.one{
+	border-bottom: 3px solid #B4B4B4;
+}
+
+.third{
+	border-bottom: 3px solid #B4B4B4;
+}
+
+.fourth{
+	border-bottom: 3px solid #B4B4B4;
+}
+
+aside p{
+	 margin-bottom: -4px;
+}
+
+header div{
+	display: inline-block;
+	width: 105px;
+	border: 1px solid black;
+}
+
+.previous{
+	text-align: left;
+}
+
+.next{
+	text-align: right;
+}
+
+footer{
+	border-top: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+footer div{
+	position: relative;
+	display: inline-block;
+	width: 105px;
+	border: 1px solid black;
+	
+}
+
+section img{
+	float: left;
+	position: relative;
+}
+
+section h3{
+	color: #FFF;
+	background-color: #808080;
+}

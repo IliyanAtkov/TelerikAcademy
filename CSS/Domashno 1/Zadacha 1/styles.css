@@ -1,0 +1,49 @@
+html
+{
+	background-color: #595959;
+	padding: 5px;
+	font-family: Arial;
+}
+thead
+{
+	padding: 10px;
+	color: #A7A7A7;
+	font-size: 19px;
+	text-align: left;
+}
+tbody tr th
+{
+	padding: 10px;
+	text-align: left;
+	font-style: italic;
+	font-weight: normal;
+	color: #DFE0E0;
+}
+#circle:before {
+    content: ' \25CF';
+    font-size: 20px;
+	color: #71B47A;
+}
+.style
+{
+	text-align: center;
+	padding: 10px;
+	color: #D5D09E;
+}
+.red
+{
+	text-align: center;
+	padding: 10px;
+	color: #E31920;
+}
+.color
+{
+	text-align: center;
+	padding: 10px;
+	color: #A4AFA5;
+}
+.different
+{
+	text-align: center;
+	color: #C0643F;
+}

@@ -1,0 +1,24 @@
+html
+{
+	font-family: Arial;
+}
+img
+{
+	width: 20px;
+	height: 20px;
+}
+thead
+{
+	background-color: #56B906;
+	color: #CFEEBF;
+	text-align: left;
+}
+tbody td
+{
+	padding-right: 50px;
+	text-align: left;
+}
+.two
+{
+	background-color: #ECECD8;
+}

@@ -1,0 +1,47 @@
+table
+ {
+    font-family: Calibri;
+    font-size: large;
+}
+
+td 
+{
+    padding: 5px;
+}
+.Table 
+{
+    border: 3px solid black;
+}
+.center
+{
+    text-align: center;
+}
+fieldset
+ {
+    border: 3px solid black;
+}
+thead li 
+{
+    display: inline-block;
+}
+thead ul 
+{
+    display: table;
+    margin: 0 auto;
+    font-size: larger;
+}
+form
+{
+    font-size: larger;
+}
+
+thead a 
+{
+    padding: 5px;
+}
+.slide
+{
+    width: 140px;
+        margin-top: 10px;
+    margin-bottom: 10px;
+}

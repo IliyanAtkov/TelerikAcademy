@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="01.DivInDiv.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div>
+            <p>one div</p>
+        </div>
+        <div>
+            another div
+            <header>
+                <div>
+                    this div his parent is not div
+                </div>
+            </header>
+            <div>
+                another div
+            </div>
+        </div>
+    </div>
+    <button onclick="GetAllDivsWithQuerySelectorAll()">Use querySelectorAll</button>
+    <button onclick="GetAllDivsWithGetElementByTagName()">UseGetElementByTagName</button>
+</body>
+</html>

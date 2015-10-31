@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='students.xslt'?>
+<students xlmns="urn:students" culture="en-US">
+  <student>
+    <name>
+      Pesho Petrov
+    </name>
+    <sex>
+      Male
+    </sex>
+    <birthDate>
+      12.12.1992
+    </birthDate>
+    <phone>
+      08131313
+    </phone>
+    <email>
+      abv@abv.bg
+    </email>
+    <course>
+      C#++
+    </course>
+    <specialty>
+      Killer
+    </specialty>
+    <facultyNumber>
+      1111111
+    </facultyNumber>
+    <exams>
+      <exam>
+        <name>
+          C# 1
+        </name>
+        <tutor>
+          Peshko
+        </tutor>
+        <score> 
+          500
+        </score>
+      </exam>
+      <exam>
+       <name>
+         C# 3
+       </name>
+       <tutor>
+         Traichko
+       </tutor>
+       <score> 
+         313
+       </score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>
+      Minka
+    </name>
+    <sex>
+      Female
+    </sex>
+    <birthDate>
+      12.12.1913
+    </birthDate>
+    <phone>
+      1323321
+    </phone>
+    <email>
+      xai@abv.bg
+    </email>
+    <course>
+      Javascript
+    </course>
+    <specialty>
+      Builder
+    </specialty>
+    <facultyNumber>
+      2222222
+    </facultyNumber>
+    <exams>
+      <exam>
+        <name>
+          C# 2
+        </name>
+        <tutor>
+          Vladi
+        </tutor>
+        <score> 
+          5001
+        </score>
+      </exam>
+      <exam>
+       <name>
+         C# 4
+       </name>
+       <tutor>
+         Traichko
+       </tutor>
+       <score> 
+         122
+       </score>
+      </exam>
+    </exams>
+  </student>
+</students>

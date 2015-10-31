@@ -1,0 +1,54 @@
+body
+{
+	font-family: Arial;
+}
+h1
+{
+	font-family:"Arial Narrow";
+	font-weight: normal;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+section
+{
+	width: 505px;
+	height:640px;
+	background-color: #EEEEEE;
+}
+div
+{
+	background-color: white;
+	padding: 15px;
+	margin-left: 15px;
+	margin-bottom: 40px;
+	margin-top: 45px;
+	width: 450px;
+	height: 120px;
+	border: 1px solid black;
+}
+p
+{
+	position: relative;
+	top: -135px;
+	left: 195px;
+}
+p img
+{
+	position: relative;
+	left: 75px;
+}
+.textone
+{
+	color: white;
+	position: relative;
+	top: -175px;
+	left: 290px;
+}
+.texttwo
+{
+	color: white;
+	position: relative;
+	top: -210px;
+	left: 370px;
+}

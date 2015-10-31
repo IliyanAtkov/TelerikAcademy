@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.School", "01.School\01.School.csproj", "{4ADA2E31-D401-4D18-8708-205994173DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Human", "Human\02.Human.csproj", "{CBF5923C-5F06-4897-A3EC-913C9DA384CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Animal", "Animal\03.Animal.csproj", "{B58C8532-EEFA-49AC-9B5F-8A7739768928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ADA2E31-D401-4D18-8708-205994173DA3}.Debug|x86.ActiveCfg = Debug|x86
+		{4ADA2E31-D401-4D18-8708-205994173DA3}.Debug|x86.Build.0 = Debug|x86
+		{4ADA2E31-D401-4D18-8708-205994173DA3}.Release|x86.ActiveCfg = Release|x86
+		{4ADA2E31-D401-4D18-8708-205994173DA3}.Release|x86.Build.0 = Release|x86
+		{CBF5923C-5F06-4897-A3EC-913C9DA384CA}.Debug|x86.ActiveCfg = Debug|x86
+		{CBF5923C-5F06-4897-A3EC-913C9DA384CA}.Debug|x86.Build.0 = Debug|x86
+		{CBF5923C-5F06-4897-A3EC-913C9DA384CA}.Release|x86.ActiveCfg = Release|x86
+		{CBF5923C-5F06-4897-A3EC-913C9DA384CA}.Release|x86.Build.0 = Release|x86
+		{B58C8532-EEFA-49AC-9B5F-8A7739768928}.Debug|x86.ActiveCfg = Debug|x86
+		{B58C8532-EEFA-49AC-9B5F-8A7739768928}.Debug|x86.Build.0 = Debug|x86
+		{B58C8532-EEFA-49AC-9B5F-8A7739768928}.Release|x86.ActiveCfg = Release|x86
+		{B58C8532-EEFA-49AC-9B5F-8A7739768928}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

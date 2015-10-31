@@ -1,0 +1,30 @@
+body
+{
+	background-color: #00FFFF;
+	font-family: Calibri;
+	font-size: 17px;
+}
+
+nav 
+{
+  list-style-type: none;
+  margin-left: -150px;
+}
+nav ul  li
+{
+	display: inline;
+	margin-left: 150px;		
+}
+h1
+{
+	font-style: italic;
+}
+.italic
+{
+	font-style: italic;
+}
+img
+{
+	width: 120px;
+	height: 140px;
+}

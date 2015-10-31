@@ -1,0 +1,93 @@
+﻿body, div, ul, li, table, tr td{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 960px;
+}
+body{
+	font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+	font-size: 18px;
+}
+.accordion-content{
+	display: none;
+}
+li{
+	list-style-type: none;
+}
+.accordion{
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border: 1px solid black;
+
+
+}
+.accordion li:hover{
+	background: #AAAAAA;
+}
+.current .accordion-content{
+	display: block;
+	
+}
+a:active, a:visited, a:link, a{
+	text-decoration: none;
+	color: black;
+}
+ul > li{
+	position: relative;
+	font-size: 1.4em;
+	text-align: center;
+	border-bottom: 1px solid black;
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top,  #eeeeee 14%, #aaaaaa 65%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(14%,#eeeeee), color-stop(65%,#aaaaaa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #eeeeee 14%,#aaaaaa 65%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #eeeeee 14%,#aaaaaa 65%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #eeeeee 14%,#aaaaaa 65%); /* IE10+ */
+background: linear-gradient(to bottom,  #eeeeee 14%,#aaaaaa 65%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+
+
+}
+h1{
+	position: relative;
+	top: -10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+.accordion-content{
+	text-align: left;
+	padding-left: 10px;
+	font-size: 18px;
+
+}
+.accordion-content p{
+	position: relative;
+	top: -25px;
+	padding-bottom: -65px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 15px;
+	font-size: 18px;
+}
+table{
+	border-collapse: collapse;
+	margin: 15px auto;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+table thead tr {
+  
+  border-top-right-radius: 15px;
+}
+table thead tr th:first-of-type {
+  border-top-left-radius: 15px;
+}
+table tbody tr td {
+  color: #fff;
+}
+ table td,  table th {
+   border: 1px solid black;
+  padding: 5px;
+}

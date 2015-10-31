@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>  Last Name </title>	
+</head>
+<body>
+	<form method="post" action="form.aspx">
+		<table border="1">	
+			<tr>
+				<td class="Names"> Last Name</td>
+				<td  colspan="3"><input type="text" class="Width" name="LastName" /></td>
+			</tr>
+			<tr>
+				<td class="Names"> First Name </td>
+				<td  colspan="3"><input type="text" class="Width" name="FirstName" /></td>
+			</tr>
+			<tr>
+				<td class="Names"> Adress </td>
+				<td colspan="3"><textarea name="Adress" cols="25" rows="3"> Enter your adress </textarea></td>
+			</tr>
+			<tr>
+				<td class="Names"> City </td>
+				<td><input type="text" name="City" /></td>
+				<td class="Names"> State </td>
+				<td> <input type="text" name="State" style="width:70px" /></td>
+			</tr>
+			<tr>
+				<td class="Names"> Zip/Postal code</td>	
+				<td colspan="3"><input type="text" name="ZIP" style="width:50px" /></td>
+			</tr>
+			<tr>
+				<td class="Names"> Country </td>
+				<td colspan="3">
+					<select name="Country">
+						<option value="value 1"> Romania </option>
+						<option value="value 2"> England </option>
+						<option value="value 3"> Bulgaria </option>
+						<option value="value 4"> Poland </option>
+						<option value="value 5"> USA </option>
+						<option value="value 6"> Russia </option>
+						<option value="value 7"> China </option>
+						<option value="value 8"> Japan </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="Names"> Phone(country code, <br> area code, number) </td>
+				<td colspan="3">
+					(+<input type="text" name="Country code"  style="width:40px" value="359" />)
+					<input type="text" name="Local code" style="width:30px" />
+					<input type="text" name="Number code" style="width:150px" />
+				</td>
+			</tr>
+			<tr>
+				<td class="Names"> Email </td>
+				<td  colspan="3"><input type="email" class="Width" name="email" />
+			</tr>
+			<tr>
+				<td class="Names"> Birth Date </td>
+				<td colspan="3">
+					Month<input type="text" name="month" style="width:30px" />
+					Day <input type="text" name="day" style="width:30px" />
+					Year(4 digit)<input type="text" name="year" style="width:50px" />
+			</tr>
+			<tr>
+				<td class="Names"> Gender </td>
+				<td colspan="3">
+				<select name="gender">
+					<option value="Value 1"
+					selected="selected">Male</option>
+					<option value="Value 2">Female</option>
+					<option value="Value 3">Other</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="Names">Starting date </td>
+				<td colspan="3">
+					<input type="radio" name="date" /> Spring 2006
+					<input type="radio" name="date" /> Summer 2006
+				</td>
+			</tr>
+			<tr>
+				<td class="Names"> Comments/Questions </td>
+				<td colspan="3"><textarea name="comments" cols="25" rows="5">Comments </textarea> </td>
+			</tr>
+			<tr class="button">
+				<td colspan="4">
+				<input type="submit" value="Submit" />
+				<input type="reset" name="resetBtn"   value="Reset the form" />
+				</td>
+
+
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

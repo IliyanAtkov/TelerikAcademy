@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Calculator</title>
+</head>
+<body>
+    <div class="numberOne">
+    	<div>
+    		<img src="1.png" alt="calculator" />
+    		<ul class="unorderedList">
+    			<li><span>V</span>iew</li>
+    			<li><span>E</span>dit</li>
+    			<li><span>H</span>elp</li>
+    		</ul>
+    	</div>
+    	<div>
+    		<input type="text" value="241124" />
+    	</div>
+    	<div class="secondList">
+    		<table>
+				    <tr>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>0000</td>
+				    </tr>
+				    <tr>
+				        <td class="color">63</td>
+				        <td></td>
+				        <td></td>
+				        <td></td>
+				        <td class="color">47</td>
+				        <td></td>
+				        <td></td>
+				        <td class="color">32</td>
+				    </tr>
+				    <tr>
+				        <td>0000</td>
+				        <td>0000</td>
+				        <td>1000</td>
+				        <td>0111</td>
+				        <td>0001</td>
+				        <td>1011</td>
+				        <td>1011</td>
+				        <td>0111</td>
+				    </tr>
+				    <tr>
+				        <td class="color">31</td>
+				        <td></td>
+				        <td></td>
+				        <td></td>
+				        <td class="color">15</td>
+				        <td></td>
+				        <td></td>
+				        <td class="color">0</td>
+				    </tr>
+			</table>
+    	</div>
+    	 <div>
+            <div class="chosenOne">
+                <form>
+                    <ul class="position1">
+                        <li><label><input type="radio" name="numeralSystem" value="hex" /> Hex</label></li>
+                        <li><label><input type="radio" name="numeralSystem" value="dec" checked /> Dec</label></li>
+                        <li><label><input type="radio" name="numeralSystem" value="oct" /> Oct</label></li>
+                        <li><label><input type="radio" name="numeralSystem" value="bin" /> Bin</label></li>
+                    </ul>
+                </form>
+
+                <form >
+                    <ul class="position2">
+                        <li><label><input type="radio" name="wordSize" value="qword" checked /> Qword</label></li>
+                        <li><label><input type="radio" name="wordSize" value="dword" /> Dword</label></li>
+                        <li><label><input type="radio" name="wordSize" value="word" /> Word</label></li>
+                        <li><label><input type="radio" name="wordSize" value="byte" /> Byte</label></li>
+                    </ul>
+                </form>
+            </div>
+
+            <form>
+                <div class="row">
+                    <button class="nocolor">&nbsp;</button>
+                    <button class="samebutton">Mod</button>
+                    <button class="words" disabled>A</button>
+                    <button class="nocolor">MC</button>
+                    <button class="nocolor">MR</button>
+                    <button class="nocolor">MS</button>
+                    <button class="nocolor">M+</button>
+                    <button class="nocolor">M-</button>
+                </div>
+
+                <div class="row">
+                    <button class="special">(</button>
+                    <button class="special">)</button>
+                    <button class="words" disabled>B</button>
+                    <button class="samebutton"><strong>&#8592;</strong></button>
+                    <button class="samebutton">CE</button>
+                    <button class="samebutton">C</button>
+                    <button class="samebutton">&#177;</button>
+                    <button class="nocolor" disabled>&radic;</button>
+                </div>
+
+                <div class="row">
+                    <button class="special">RoL</button>
+                    <button class="special">RoR</button>
+                    <button class="words" disabled>C</button>
+                    <button class="numbers">7</button>
+                    <button class="numbers">8</button>
+                    <button class="numbers">9</button>
+                    <button class="samebutton">/</button>
+                    <button class="nocolor" disabled>%</button>
+                </div>
+
+                <div class="row">
+                    <button class="special">Or</button>
+                    <button class="special">Xor</button>
+                    <button class="words" disabled>D</button>
+                    <button class="numbers">4</button>
+                    <button class="numbers">5</button>
+                    <button class="numbers">6</button>
+                    <button class="samebutton">*</button>
+                    <button class="nocolor" disabled>1/x</button>
+                </div>
+
+                <div class="row">
+                            <button class="special">Lsh</button>
+                            <button class="special">Rsh</button>
+                            <button class="words" disabled>E</button>
+                            <button class="numbers">1</button>
+                            <button class="numbers">2</button>
+                            <button class="numbers">3</button>
+                            <button class="samebutton">-</button>
+                        </div>
+
+                        <div class="row">
+                            <button class="special">Not</button>
+                            <button class="special">And</button>
+                            <button class="words" disabled>F</button>
+                            <button class="zero">0</button>
+                            <button class="nocolor" disabled>.</button>
+                            <button class="samebutton">+</button>
+                        </div>
+                        <div>
+                            <button class="equial"><strong>=</strong></button>
+                        </div>
+                    
+
+                    </form>
+                </div>
+             </div>
+         </form>
+     </div>
+  </div>
+</body>
+</html>

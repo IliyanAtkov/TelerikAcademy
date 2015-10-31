@@ -1,0 +1,120 @@
+div, p, span, ul, body{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 960px;
+}
+#wrapper div{
+	width: 380px;
+	height: 480px;
+	border: 1px solid black;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 15px;
+	background: #ededed; /* Old browsers */
+background: -moz-linear-gradient(top,  #ededed 10%, #aaaaaa 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#ededed), color-stop(100%,#aaaaaa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ededed 10%,#aaaaaa 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ededed 10%,#aaaaaa 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ededed 10%,#aaaaaa 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ededed 10%,#aaaaaa 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+
+}
+h1{
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+li{
+	margin-bottom: 5px;
+}
+body{
+	font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+	font-size: 16px;
+}
+ul{
+	list-style-type: none;
+}
+.date{
+	font-family: Consolas;
+	padding-left: 90px;
+	color: #555555;
+	font-size: 13px;
+}
+.me-item{
+	padding-top: 10px;
+	position: relative;
+	width: 220px;
+	height: 60px;
+	border: 1px solid black;
+	margin-left: 120px;
+	border-radius: 15px;
+	padding-left: 15px;
+	background: #30eeff; /* Old browsers */
+background: -moz-linear-gradient(top,  #30eeff 36%, #bcfaff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#30eeff), color-stop(100%,#bcfaff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #30eeff 36%,#bcfaff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #30eeff 36%,#bcfaff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #30eeff 36%,#bcfaff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #30eeff 36%,#bcfaff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30eeff', endColorstr='#bcfaff',GradientType=0 ); /* IE6-9 */
+
+}
+.toshko-item{
+	padding-top: 10px;
+	padding-right: 15px;
+	position: relative;
+	width: 220px;
+	text-align: right;
+	height: 60px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: #d9ffcb; /* Old browsers */
+background: -moz-linear-gradient(top,  #d9ffcb 29%, #71ff3d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(29%,#d9ffcb), color-stop(100%,#71ff3d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d9ffcb 29%,#71ff3d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d9ffcb 29%,#71ff3d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d9ffcb 29%,#71ff3d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d9ffcb 29%,#71ff3d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9ffcb', endColorstr='#71ff3d',GradientType=0 ); /* IE6-9 */
+}
+.toshko-item.date{
+	text-align: left;
+}
+.toshko-item p {
+	padding-left: 5px;
+ 	text-align:left;
+}
+.toshko-item span.date{
+	position: relative;
+	left: -90px;
+}
+input[type="text"]
+{
+	margin-left: 15px;
+	margin-bottom: 10px;
+	width: 290px;
+	height: 25px;
+	border-radius: 10px;
+}
+button{
+	font-weight: bold;
+	height: 30px;
+	width:65px;
+	border-radius: 5px;
+	background: #e9e9e9; /* Old browsers */
+background: -moz-linear-gradient(top,  #e9e9e9 29%, #aaaaaa 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(29%,#e9e9e9), color-stop(100%,#aaaaaa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e9e9e9 29%,#aaaaaa 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e9e9e9 29%,#aaaaaa 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e9e9e9 29%,#aaaaaa 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e9e9e9 29%,#aaaaaa 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+}
+button:hover{
+	background: white;
+}

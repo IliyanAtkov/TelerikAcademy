@@ -1,0 +1,54 @@
+header, span, div, section
+{
+	margin: 0;
+	padding: 0;
+}
+header div
+{
+	background-color: #343434;
+	padding-top: 0px;
+	width: 720px;
+	padding-bottom: 5px;
+}
+header span
+{
+	font-size: 21px;
+	color: white;
+}
+
+.go
+{
+	margin-left: 30px;
+	margin-bottom: -20px;
+}
+.monitor
+{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	margin-right: 50px;
+}
+
+h1
+{
+	font: 28px/68px Georgia;
+	color: #FBD61A;
+}
+section p
+{
+	font: 13px/17px Verdana;
+	color: #A4A4A4;
+}
+section div
+{
+	margin-top: -23px;
+	background-color: #3B3B3B;
+	padding-left: 20px;
+	width: 680px;
+	height: 270px;
+	padding-right: 20px;
+}
+section div p span
+{
+	color: #fff;
+}

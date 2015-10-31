@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Multiverse Communication", "01.Multiverse Communication\01.Multiverse Communication.csproj", "{8F7C2E80-0B14-4A54-B518-6985424E39D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Magic Words", "02.Magic Words\02.Magic Words.csproj", "{8294B723-4BEB-48A4-B66C-BC8C466BF8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Featuring with Grisko", "05.Featuring with Grisko\05.Featuring with Grisko.csproj", "{62C0BA3A-8CFC-49CD-B42B-7A70F6AC4C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Kaspichan Numbers", "01.Kaspichan Numbers\01.Kaspichan Numbers.csproj", "{1F4E0A33-AD3B-429A-8AAB-C3BA013E3CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Greedy Dwarf", "02.Greedy Dwarf\02.Greedy Dwarf.csproj", "{E125C12B-B808-4CEB-A96C-4A7019FA19C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Decode and Decrypt", "04.Decode and Decrypt\04.Decode and Decrypt.csproj", "{A907495D-8C61-4D24-A403-12AEE3A2F5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Zerg", "01.Zerg\01.Zerg.csproj", "{084198C5-2AB0-46F3-81DD-8182085CBFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Durankulak numbers", "01.Durankulak numbers\01.Durankulak numbers.csproj", "{1A270D02-A6FA-4EDE-BD68-BCB425C8C5BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F7C2E80-0B14-4A54-B518-6985424E39D9}.Debug|x86.ActiveCfg = Debug|x86
+		{8F7C2E80-0B14-4A54-B518-6985424E39D9}.Debug|x86.Build.0 = Debug|x86
+		{8F7C2E80-0B14-4A54-B518-6985424E39D9}.Release|x86.ActiveCfg = Release|x86
+		{8F7C2E80-0B14-4A54-B518-6985424E39D9}.Release|x86.Build.0 = Release|x86
+		{8294B723-4BEB-48A4-B66C-BC8C466BF8EA}.Debug|x86.ActiveCfg = Debug|x86
+		{8294B723-4BEB-48A4-B66C-BC8C466BF8EA}.Debug|x86.Build.0 = Debug|x86
+		{8294B723-4BEB-48A4-B66C-BC8C466BF8EA}.Release|x86.ActiveCfg = Release|x86
+		{8294B723-4BEB-48A4-B66C-BC8C466BF8EA}.Release|x86.Build.0 = Release|x86
+		{62C0BA3A-8CFC-49CD-B42B-7A70F6AC4C0B}.Debug|x86.ActiveCfg = Debug|x86
+		{62C0BA3A-8CFC-49CD-B42B-7A70F6AC4C0B}.Debug|x86.Build.0 = Debug|x86
+		{62C0BA3A-8CFC-49CD-B42B-7A70F6AC4C0B}.Release|x86.ActiveCfg = Release|x86
+		{62C0BA3A-8CFC-49CD-B42B-7A70F6AC4C0B}.Release|x86.Build.0 = Release|x86
+		{1F4E0A33-AD3B-429A-8AAB-C3BA013E3CD9}.Debug|x86.ActiveCfg = Debug|x86
+		{1F4E0A33-AD3B-429A-8AAB-C3BA013E3CD9}.Debug|x86.Build.0 = Debug|x86
+		{1F4E0A33-AD3B-429A-8AAB-C3BA013E3CD9}.Release|x86.ActiveCfg = Release|x86
+		{1F4E0A33-AD3B-429A-8AAB-C3BA013E3CD9}.Release|x86.Build.0 = Release|x86
+		{E125C12B-B808-4CEB-A96C-4A7019FA19C4}.Debug|x86.ActiveCfg = Debug|x86
+		{E125C12B-B808-4CEB-A96C-4A7019FA19C4}.Debug|x86.Build.0 = Debug|x86
+		{E125C12B-B808-4CEB-A96C-4A7019FA19C4}.Release|x86.ActiveCfg = Release|x86
+		{E125C12B-B808-4CEB-A96C-4A7019FA19C4}.Release|x86.Build.0 = Release|x86
+		{A907495D-8C61-4D24-A403-12AEE3A2F5D6}.Debug|x86.ActiveCfg = Debug|x86
+		{A907495D-8C61-4D24-A403-12AEE3A2F5D6}.Debug|x86.Build.0 = Debug|x86
+		{A907495D-8C61-4D24-A403-12AEE3A2F5D6}.Release|x86.ActiveCfg = Release|x86
+		{A907495D-8C61-4D24-A403-12AEE3A2F5D6}.Release|x86.Build.0 = Release|x86
+		{084198C5-2AB0-46F3-81DD-8182085CBFEB}.Debug|x86.ActiveCfg = Debug|x86
+		{084198C5-2AB0-46F3-81DD-8182085CBFEB}.Debug|x86.Build.0 = Debug|x86
+		{084198C5-2AB0-46F3-81DD-8182085CBFEB}.Release|x86.ActiveCfg = Release|x86
+		{084198C5-2AB0-46F3-81DD-8182085CBFEB}.Release|x86.Build.0 = Release|x86
+		{1A270D02-A6FA-4EDE-BD68-BCB425C8C5BC}.Debug|x86.ActiveCfg = Debug|x86
+		{1A270D02-A6FA-4EDE-BD68-BCB425C8C5BC}.Debug|x86.Build.0 = Debug|x86
+		{1A270D02-A6FA-4EDE-BD68-BCB425C8C5BC}.Release|x86.ActiveCfg = Release|x86
+		{1A270D02-A6FA-4EDE-BD68-BCB425C8C5BC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

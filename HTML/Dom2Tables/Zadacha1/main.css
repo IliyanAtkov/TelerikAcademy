@@ -1,0 +1,14 @@
+body
+{
+	font-family: Calibri;
+}
+img
+{
+	width: 100px;
+	height: 100px;
+}
+tr th
+{
+	font-size: 17pt;
+	font-style: italic;
+}

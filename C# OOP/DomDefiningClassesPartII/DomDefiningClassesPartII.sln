@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-4.Euclian3DSpace", "1-4.Euclian3DSpace\1-4.Euclian3DSpace.csproj", "{53D5E425-AAB3-454C-9C99-E5950151DA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-7.GenericList", "5-7.GenericList\5-7.GenericList.csproj", "{1111AE96-1076-4E49-99F4-5C34F1106BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-10.Matrix", "Matrix\8-10.Matrix.csproj", "{8F437DAA-BBF6-4CFE-A628-8506900CF422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribute", "Attribute\Attribute.csproj", "{462C014A-71E2-40B3-819F-7D977A2D2C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53D5E425-AAB3-454C-9C99-E5950151DA04}.Debug|x86.ActiveCfg = Debug|x86
+		{53D5E425-AAB3-454C-9C99-E5950151DA04}.Debug|x86.Build.0 = Debug|x86
+		{53D5E425-AAB3-454C-9C99-E5950151DA04}.Release|x86.ActiveCfg = Release|x86
+		{53D5E425-AAB3-454C-9C99-E5950151DA04}.Release|x86.Build.0 = Release|x86
+		{1111AE96-1076-4E49-99F4-5C34F1106BB1}.Debug|x86.ActiveCfg = Debug|x86
+		{1111AE96-1076-4E49-99F4-5C34F1106BB1}.Debug|x86.Build.0 = Debug|x86
+		{1111AE96-1076-4E49-99F4-5C34F1106BB1}.Release|x86.ActiveCfg = Release|x86
+		{1111AE96-1076-4E49-99F4-5C34F1106BB1}.Release|x86.Build.0 = Release|x86
+		{8F437DAA-BBF6-4CFE-A628-8506900CF422}.Debug|x86.ActiveCfg = Debug|x86
+		{8F437DAA-BBF6-4CFE-A628-8506900CF422}.Debug|x86.Build.0 = Debug|x86
+		{8F437DAA-BBF6-4CFE-A628-8506900CF422}.Release|x86.ActiveCfg = Release|x86
+		{8F437DAA-BBF6-4CFE-A628-8506900CF422}.Release|x86.Build.0 = Release|x86
+		{462C014A-71E2-40B3-819F-7D977A2D2C2D}.Debug|x86.ActiveCfg = Debug|x86
+		{462C014A-71E2-40B3-819F-7D977A2D2C2D}.Debug|x86.Build.0 = Debug|x86
+		{462C014A-71E2-40B3-819F-7D977A2D2C2D}.Release|x86.ActiveCfg = Release|x86
+		{462C014A-71E2-40B3-819F-7D977A2D2C2D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

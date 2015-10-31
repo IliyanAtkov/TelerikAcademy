@@ -1,0 +1,11 @@
+Structured Query Language (SQL) - Declarative language for query and manipulation of relational data
+Defining / modifying the database schema
+Searching / modifying table data
+
+SQL consists of:
+Data Manipulation Language (DML)
+	SELECT, INSERT, UPDATE, DELETE
+
+Data Definition Language (DDL)
+	CREATE, DROP, ALTER
+	GRANT, REVOKE
