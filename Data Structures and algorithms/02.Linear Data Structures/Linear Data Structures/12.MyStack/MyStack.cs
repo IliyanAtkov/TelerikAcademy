@@ -25,8 +25,40 @@
             this.collection = new T[this.Capacity];
             this.currentIndex = 0;
         }
-        
-        
+
+        public int Capacity
+        {
+            get
+            {
+                return this.capacity;
+            }
+
+            private set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Capacity cannot be zero or less");
+                }
+
+                this.capacity = value;
+            }
+        }
+
+        public int Count
+        {
+            get { return this.count; }
+        }
+
+        public bool IsSynchronized
+        {
+            get { return false; }
+        }
+
+        public object SyncRoot
+        {
+            get { return this; }
+        }
+
         public void Push(T item)
         {
             if (item == null)
@@ -77,40 +109,6 @@
             }
 
             return resized;
-        }
-
-
-        public int Capacity
-        {
-            get
-            {
-                return this.capacity;
-            }
-
-            private set
-            {
-                if (value <= 0)
-                {
-                    throw new ArgumentException("Capacity cannot be zero or less");
-                }
-
-                this.capacity = value;
-            }
-        }
-
-        public int Count
-        {
-            get { return this.count; }
-        }
-
-        public bool IsSynchronized
-        {
-            get { return false; }
-        }
-
-        public object SyncRoot
-        {
-            get { return this; }
         }
 
         public void CopyTo(Array array, int index)
