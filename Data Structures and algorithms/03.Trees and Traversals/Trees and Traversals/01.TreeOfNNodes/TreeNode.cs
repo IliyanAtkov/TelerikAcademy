@@ -7,18 +7,31 @@
     {
         private T value;
         private List<TreeNode<T>> children;
-        private bool hasParent;
 
         public TreeNode(T value)
         {
             this.Value = value;
-            this.children = new List<TreeNode<T>>();
+            this.Children = new List<TreeNode<T>>();
         }
 
         public int ChildrenCount
         {
             get { return this.children.Count; }
         }
+
+        public List<TreeNode<T>> Children
+        {
+            get
+            {
+                return new List<TreeNode<T>>(children);
+            }
+            private set
+            {
+                this.children = value;
+            }
+        }
+
+        public bool HasParent { get; private set; }
 
         public T Value
         {
@@ -44,11 +57,12 @@
                 throw new ArgumentNullException("Child cannot be null");
             }
 
-            if (child.hasParent)
+            if (child.HasParent)
             {
                 throw new ArgumentNullException("Child already has a parent");
             }
 
+            child.HasParent = true;
             this.children.Add(child);
         }
     }
