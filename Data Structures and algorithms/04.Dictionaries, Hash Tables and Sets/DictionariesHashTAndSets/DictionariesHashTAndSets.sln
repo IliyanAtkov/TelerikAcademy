@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.NumberOfOccurance", "01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.StringOddNumberOfTimes", "02.StringOddNumberOfTimes\02.StringOddNumberOfTimes.csproj", "{1EF59015-6389-4364-AEAE-0E83849CDDC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordsCount", "03.WordsCount\03.WordsCount.csproj", "{5C9AEE7D-A2B6-4E13-BFE9-CEA3A06B9F44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1EF59015-6389-4364-AEAE-0E83849CDDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF59015-6389-4364-AEAE-0E83849CDDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EF59015-6389-4364-AEAE-0E83849CDDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9AEE7D-A2B6-4E13-BFE9-CEA3A06B9F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9AEE7D-A2B6-4E13-BFE9-CEA3A06B9F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9AEE7D-A2B6-4E13-BFE9-CEA3A06B9F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9AEE7D-A2B6-4E13-BFE9-CEA3A06B9F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
