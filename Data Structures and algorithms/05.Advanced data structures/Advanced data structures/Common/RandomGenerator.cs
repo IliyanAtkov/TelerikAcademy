@@ -1,4 +1,4 @@
-﻿namespace FirstTwentyProductsInRange
+﻿namespace Common
 {
     using System;
     using System.Text;
