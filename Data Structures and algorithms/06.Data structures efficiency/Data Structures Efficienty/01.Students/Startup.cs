@@ -9,6 +9,7 @@
     {
         private const string PathToFileToRead = @"../../students.txt";
         private static char[] separators =  new [] {' ', '|'};
+
         public static void Main()
         {
             var sortedStudentCourses = new SortedDictionary<string, SortedDictionary<string, string>>();
