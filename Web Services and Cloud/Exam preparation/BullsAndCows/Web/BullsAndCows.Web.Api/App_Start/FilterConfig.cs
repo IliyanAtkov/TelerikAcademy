@@ -1,8 +1,8 @@
-﻿using System.Web;
-using System.Web.Mvc;
-
-namespace BullsAndCows.Web.Api
+﻿namespace BullsAndCows.Web.Api
 {
+    using System.Web;
+    using System.Web.Mvc;
+
     public class FilterConfig
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)

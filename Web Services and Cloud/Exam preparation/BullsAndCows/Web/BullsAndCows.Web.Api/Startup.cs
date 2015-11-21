@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using BullsAndCows.Web.Api;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(BullsAndCows.Web.Api.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
 namespace BullsAndCows.Web.Api
 {
@@ -12,7 +10,7 @@ namespace BullsAndCows.Web.Api
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            this.ConfigureAuth(app);
         }
     }
 }
