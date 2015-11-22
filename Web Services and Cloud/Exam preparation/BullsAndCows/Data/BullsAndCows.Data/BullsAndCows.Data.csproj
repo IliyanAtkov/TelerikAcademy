@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0EAB1CF9-70C0-4D30-9FCB-9A89D39F9CD3}</ProjectGuid>
+    <ProjectGuid>{27C7C7DE-9968-4F8F-B742-0680D6D9E0BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BullsAndCows.Data</RootNamespace>
     <AssemblyName>BullsAndCows.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,11 +31,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -59,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BullsAndCowsDbContext.cs" />
+    <Compile Include="IBullsAndCowsDbContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,8 +67,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BullsAndCows.Data.Common\BullsAndCows.Data.Common.csproj">
+      <Project>{570923b1-7b5e-44d3-8c75-2f875a07f737}</Project>
+      <Name>BullsAndCows.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BullsAndCows.Data.Models\BullsAndCows.Data.Models.csproj">
-      <Project>{de424fa0-6984-470e-b4a4-e7245f0140ce}</Project>
+      <Project>{d903c6d0-74eb-4d94-9d12-0ba0658ab5ea}</Project>
       <Name>BullsAndCows.Data.Models</Name>
     </ProjectReference>
   </ItemGroup>

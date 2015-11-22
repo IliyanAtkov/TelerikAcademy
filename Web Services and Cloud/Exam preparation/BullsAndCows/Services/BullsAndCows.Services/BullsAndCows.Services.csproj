@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00DC0B00-BDD3-4B2B-B325-2F3AEEB27027}</ProjectGuid>
+    <ProjectGuid>{69A35D94-59F4-48FE-BCE5-50FEDCD3C5CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BullsAndCows.Services</RootNamespace>
     <AssemblyName>BullsAndCows.Services</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +41,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\BullsAndCows.Common\BullsAndCows.Common.csproj">
+      <Project>{cabfb20b-57df-4077-8861-bc5133b6a60c}</Project>
+      <Name>BullsAndCows.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\BullsAndCows.Data.Common\BullsAndCows.Data.Common.csproj">
+      <Project>{570923b1-7b5e-44d3-8c75-2f875a07f737}</Project>
+      <Name>BullsAndCows.Data.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\BullsAndCows.Data.Models\BullsAndCows.Data.Models.csproj">
+      <Project>{d903c6d0-74eb-4d94-9d12-0ba0658ab5ea}</Project>
+      <Name>BullsAndCows.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BullsAndCows.Services.Common\BullsAndCows.Services.Common.csproj">
+      <Project>{ed736768-f30b-45be-9fae-8b4d2853532c}</Project>
+      <Name>BullsAndCows.Services.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
