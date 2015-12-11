@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Color.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Color"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Border Name="borderForTextBlock">
+            <TextBlock Name="textBlock"
+                   Text="{Binding ElementName=textBox, 
+                          Mode=OneWay,
+                          UpdateSourceTrigger=PropertyChanged,
+                          Path=Text}">
+            </TextBlock>
+        </Border>
+        <TextBox Name="textBox" PlaceholderText="Enter text here to visualize in upper text block">
+        </TextBox>
+        <TextBlock Text="Choose background Color" />
+        <RadioButton Tag="#000000" Content="Black" GroupName="backgroundColor" Checked="RadioBtnBackgroundChecked"/>
+        <RadioButton Tag="#ffff00" Content="Yellow" GroupName="backgroundColor" Checked="RadioBtnBackgroundChecked" />
+        <RadioButton Tag="#008000" Content="Green" GroupName="backgroundColor" Checked="RadioBtnBackgroundChecked"/>
+        <TextBlock Text="Choose foreground Color" />
+        <RadioButton Tag="#000000" Content="Black" GroupName="foregroundColor" Checked="RadioBtnForegroundChecked"/>
+        <RadioButton Tag="#ffff00" Content="Yellow" GroupName="foregroundColor" Checked="RadioBtnForegroundChecked"/>
+        <RadioButton Tag="#008000" Content="Green" GroupName="foregroundColor" Checked="RadioBtnForegroundChecked"/>
+    </StackPanel>
+</Page>
